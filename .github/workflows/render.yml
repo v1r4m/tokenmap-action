@@ -1,0 +1,50 @@
+name: Render heatmap
+
+# The Mac pushes data/history.json; this re-renders the SVG and README from it.
+# Collection cannot run here — ~/.claude does not exist on a GitHub runner.
+on:
+  push:
+    paths:
+      - "data/history.json"
+      - "scripts/render.mjs"
+  workflow_dispatch:
+    inputs:
+      metric:
+        description: "Heatmap intensity metric"
+        type: choice
+        default: total
+        options: [total, billable, output, messages]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-heatmap
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render
+        env:
+          METRIC: ${{ inputs.metric || 'total' }}
+        run: node scripts/render.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets README.md; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          git commit -m "chore: re-render usage heatmap"
+          git push

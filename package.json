@@ -1,0 +1,15 @@
+{
+  "name": "tokenmap-action",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Claude Code usage heatmap in the README, built from local session transcripts.",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "render": "node scripts/render.mjs",
+    "update": "node scripts/sync.mjs && node scripts/render.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

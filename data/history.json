@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T00:00:09.495Z",
+  "generated_at": "2026-08-14T00:00:10.158Z",
   "timezone": "Asia/Seoul",
   "source": "claude-code-transcripts",
   "days": {
@@ -172,39 +172,39 @@
       }
     },
     "2026-07-09": {
-      "input": 36734,
-      "output": 186966,
-      "cache_read": 78835603,
-      "cache_creation": 3545535,
-      "total": 82604838,
-      "messages": 238,
-      "sessions": 5,
+      "input": 29290,
+      "output": 133506,
+      "cache_read": 76770486,
+      "cache_creation": 3464075,
+      "total": 80397357,
+      "messages": 202,
+      "sessions": 4,
       "models": {
-        "claude-opus-4-8": 223700
+        "claude-opus-4-8": 162796
       }
     },
     "2026-07-10": {
-      "input": 36845,
-      "output": 177262,
-      "cache_read": 69568663,
-      "cache_creation": 3223497,
-      "total": 73006267,
-      "messages": 249,
-      "sessions": 6,
+      "input": 34735,
+      "output": 108489,
+      "cache_read": 61802479,
+      "cache_creation": 2863201,
+      "total": 64808904,
+      "messages": 213,
+      "sessions": 5,
       "models": {
-        "claude-opus-4-8": 214107
+        "claude-opus-4-8": 143224
       }
     },
     "2026-07-13": {
-      "input": 58781,
-      "output": 542762,
-      "cache_read": 162568636,
-      "cache_creation": 5387321,
-      "total": 168557500,
-      "messages": 564,
-      "sessions": 7,
+      "input": 52843,
+      "output": 487142,
+      "cache_read": 143212357,
+      "cache_creation": 4176352,
+      "total": 147928694,
+      "messages": 513,
+      "sessions": 6,
       "models": {
-        "claude-opus-4-8": 601543
+        "claude-opus-4-8": 539985
       }
     },
     "2026-07-14": {
@@ -449,6 +449,18 @@
       "sessions": 3,
       "models": {
         "claude-opus-5": 147071
+      }
+    },
+    "2026-08-13": {
+      "input": 130,
+      "output": 39930,
+      "cache_read": 5609908,
+      "cache_creation": 619342,
+      "total": 6269310,
+      "messages": 69,
+      "sessions": 3,
+      "models": {
+        "claude-opus-5": 40060
       }
     }
   }

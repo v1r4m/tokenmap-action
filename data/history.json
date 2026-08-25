@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T00:00:09.476Z",
+  "generated_at": "2026-08-25T00:00:07.489Z",
   "timezone": "Asia/Seoul",
   "source": "claude-code-transcripts",
   "days": {
@@ -256,27 +256,27 @@
       }
     },
     "2026-07-21": {
-      "input": 378,
-      "output": 222116,
-      "cache_read": 12048294,
-      "cache_creation": 426839,
-      "total": 12697627,
-      "messages": 189,
-      "sessions": 5,
+      "input": 156,
+      "output": 46230,
+      "cache_read": 4137386,
+      "cache_creation": 136243,
+      "total": 4320015,
+      "messages": 78,
+      "sessions": 2,
       "models": {
-        "claude-opus-4-8": 222494
+        "claude-opus-4-8": 46386
       }
     },
     "2026-07-22": {
-      "input": 17712,
-      "output": 564805,
-      "cache_read": 202338265,
-      "cache_creation": 3138395,
-      "total": 206059177,
-      "messages": 731,
-      "sessions": 7,
+      "input": 8,
+      "output": 5353,
+      "cache_read": 337193,
+      "cache_creation": 87758,
+      "total": 430312,
+      "messages": 4,
+      "sessions": 1,
       "models": {
-        "claude-opus-4-8": 582517
+        "claude-opus-4-8": 5361
       }
     },
     "2026-07-23": {
@@ -292,15 +292,15 @@
       }
     },
     "2026-07-24": {
-      "input": 497,
-      "output": 199588,
-      "cache_read": 39996903,
-      "cache_creation": 888731,
-      "total": 41085719,
-      "messages": 267,
-      "sessions": 4,
+      "input": 280,
+      "output": 115394,
+      "cache_read": 11211054,
+      "cache_creation": 267292,
+      "total": 11594020,
+      "messages": 150,
+      "sessions": 2,
       "models": {
-        "claude-opus-4-8": 200085
+        "claude-opus-4-8": 115674
       }
     },
     "2026-07-27": {
@@ -521,6 +521,18 @@
       "sessions": 1,
       "models": {
         "claude-opus-5": 2979
+      }
+    },
+    "2026-08-24": {
+      "input": 79,
+      "output": 17197,
+      "cache_read": 5697494,
+      "cache_creation": 214630,
+      "total": 5929400,
+      "messages": 41,
+      "sessions": 2,
+      "models": {
+        "claude-opus-5": 17276
       }
     }
   }

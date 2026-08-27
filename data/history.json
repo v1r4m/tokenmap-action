@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:32:58.312Z",
+  "generated_at": "2026-08-27T00:00:07.841Z",
   "timezone": "Asia/Seoul",
   "source": "claude-code-transcripts",
   "days": {
@@ -256,15 +256,15 @@
       }
     },
     "2026-07-21": {
-      "input": 156,
-      "output": 46230,
-      "cache_read": 4137386,
-      "cache_creation": 136243,
-      "total": 4320015,
-      "messages": 78,
-      "sessions": 2,
+      "input": 86,
+      "output": 32669,
+      "cache_read": 2814236,
+      "cache_creation": 78196,
+      "total": 2925187,
+      "messages": 43,
+      "sessions": 1,
       "models": {
-        "claude-opus-4-8": 46386
+        "claude-opus-4-8": 32755
       }
     },
     "2026-07-22": {
@@ -304,16 +304,16 @@
       }
     },
     "2026-07-27": {
-      "input": 5739,
-      "output": 3700383,
-      "cache_read": 248826236,
-      "cache_creation": 14179018,
-      "total": 266711376,
-      "messages": 1495,
-      "sessions": 18,
+      "input": 3529,
+      "output": 2753672,
+      "cache_read": 200696594,
+      "cache_creation": 11100638,
+      "total": 214554433,
+      "messages": 1177,
+      "sessions": 14,
       "models": {
         "claude-opus-5": 121918,
-        "claude-opus-4-8": 3584204
+        "claude-opus-4-8": 2635283
       }
     },
     "2026-07-28": {
@@ -548,15 +548,15 @@
       }
     },
     "2026-08-26": {
-      "input": 247,
-      "output": 53263,
-      "cache_read": 15355565,
-      "cache_creation": 786807,
-      "total": 16195882,
-      "messages": 124,
-      "sessions": 2,
+      "input": 526,
+      "output": 169161,
+      "cache_read": 34989167,
+      "cache_creation": 1151734,
+      "total": 36310588,
+      "messages": 264,
+      "sessions": 4,
       "models": {
-        "claude-opus-5": 53510
+        "claude-opus-5": 169687
       }
     }
   }

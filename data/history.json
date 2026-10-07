@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:00:08.789Z",
+  "generated_at": "2026-10-07T00:00:07.230Z",
   "timezone": "Asia/Seoul",
   "source": "claude-code-transcripts",
   "days": {
@@ -460,15 +460,15 @@
       }
     },
     "2026-08-14": {
-      "input": 483,
-      "output": 202234,
-      "cache_read": 44731570,
-      "cache_creation": 1036309,
-      "total": 45970596,
-      "messages": 257,
-      "sessions": 2,
+      "input": 234,
+      "output": 119641,
+      "cache_read": 20496833,
+      "cache_creation": 807335,
+      "total": 21424043,
+      "messages": 125,
+      "sessions": 1,
       "models": {
-        "claude-opus-5": 202717
+        "claude-opus-5": 119875
       }
     },
     "2026-08-18": {
@@ -876,6 +876,19 @@
       "models": {
         "claude-opus-5-5": 2751,
         "claude-opus-5": 86913
+      }
+    },
+    "2026-10-06": {
+      "input": 438,
+      "output": 199352,
+      "cache_read": 53414560,
+      "cache_creation": 1248084,
+      "total": 54862434,
+      "messages": 217,
+      "sessions": 4,
+      "models": {
+        "claude-opus-5": 121140,
+        "claude-opus-5-5": 78650
       }
     }
   }

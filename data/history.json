@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T00:00:09.078Z",
+  "generated_at": "2026-11-11T00:00:06.760Z",
   "timezone": "Asia/Seoul",
   "source": "claude-code-transcripts",
   "days": {
@@ -1166,6 +1166,19 @@
       "sessions": 3,
       "models": {
         "claude-opus-5-5": 129758
+      }
+    },
+    "2026-11-10": {
+      "input": 1010,
+      "output": 500997,
+      "cache_read": 95514987,
+      "cache_creation": 1800587,
+      "total": 97817581,
+      "messages": 481,
+      "sessions": 3,
+      "models": {
+        "claude-opus-5-5": 374132,
+        "claude-opus-4-8": 127875
       }
     }
   }
